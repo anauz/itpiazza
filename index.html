@@ -1,1 +1,264 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IT Piazza | Courses and Certification Resources</title><meta name="description" content="IT Piazza offers courses, books and free certification resources in Python, databases, Scrum, Excel and software testing."><link rel="canonical" href="https://itpiazza.net/"><link rel="icon" href="/assets/images/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png"><link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"><link rel="stylesheet" href="/assets/css/site.css"></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="/" aria-current="page"><img src="/assets/images/itpiazza-logo-header.png" alt="IT Piazza — Learn. Practice. Get Certified."></a><button class="menu-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">☰</button><nav class="site-nav"><a href="/" aria-current="page">Home</a><a href="/publications/">Publications</a><a href="/certifications/">Certification Resources</a><a href="/scrum-certificates/">Scrum Cheat Sheet</a></nav></div></header><section class="page-hero"><div class="hero-inner"><p class="eyebrow">IT Piazza resources</p><h1>Learn. Practise. Certify.</h1><p>Explore courses, publications and free resources designed to help you build practical skills and prepare for professional certifications.</p></div></section><main class="content"><div class="home-grid"><a class="home-card" href="/publications/"><h2>Publications</h2><p>Courses, books and certification preparation materials.</p></a><a class="home-card" href="/certifications/"><h2>Certification Resources</h2><p>Free Python examples and practical reference material.</p></a><a class="home-card" href="/scrum-certificates/"><h2>Scrum Cheat Sheet</h2><p>A free PDF guide for Scrum learning and exam review.</p></a></div></main><footer class="site-footer"><div class="footer-inner"><a class="footer-brand" href="/"><img src="/assets/images/itpiazza-logo-header.png" alt="IT Piazza"></a><span>Courses, books and certification resources by Dr Ana Uzelac and collaborators.</span><span>© 2026 IT Piazza</span></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IT Piazza | Learn, Practice and Get Certified</title>
+  <meta name="description" content="IT Piazza offers books, certification preparation, practice tests and free learning resources for Python, Oracle, Scrum, Excel and software testing.">
+  <link rel="canonical" href="https://itpiazza.net/">
+  <meta property="og:title" content="IT Piazza | Learn, Practice and Get Certified">
+  <meta property="og:description" content="Practical IT learning materials, books and certification preparation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://itpiazza.net/">
+  <link rel="icon" href="/assets/images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="homepage">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-current="page">
+        <img src="/assets/images/itpiazza-logo-header.png" alt="IT Piazza — Learn. Practice. Get Certified.">
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"
+        onclick="const n=document.querySelector('.site-nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#topics">Topics</a>
+        <a href="/publications/">Books & Courses</a>
+        <a href="/certifications/">Certifications</a>
+        <a href="#resources">Free Resources</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="/publications/">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="homepage-main">
+    <section class="home-hero">
+      <div class="home-hero-inner">
+        <div class="hero-copy">
+          <p class="home-eyebrow">Practical IT education</p>
+          <h1>Learn. Practice.<br><span>Get Certified.</span></h1>
+          <p class="hero-lead">
+            Build practical skills in Python, Oracle, Scrum, Excel and software testing
+            with books, practice tests and certification resources created from real
+            teaching experience.
+          </p>
+          <div class="hero-actions">
+            <a class="btn home-primary" href="/publications/">Explore Books & Courses <span aria-hidden="true">→</span></a>
+            <a class="btn home-secondary" href="/certifications/">Certification Resources</a>
+          </div>
+          <div class="trust-line">
+            <span class="trust-dot">✓</span>
+            <span>University-level expertise</span>
+            <span class="trust-separator">•</span>
+            <span>Practical exam preparation</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of books, coding and certification">
+          <div class="visual-glow"></div>
+          <div class="code-card">
+            <div class="code-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="code-lines">
+              <i class="l1"></i><i class="l2"></i><i class="l3"></i>
+              <i class="l4"></i><i class="l5"></i><i class="l6"></i>
+            </div>
+          </div>
+          <div class="book-stack">
+            <div class="book python-book"><span>PYTHON</span></div>
+            <div class="book oracle-book"><span>ORACLE</span></div>
+            <div class="book scrum-book"><span>SCRUM</span></div>
+            <div class="book testing-book"><span>TESTING</span></div>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-title">CERTIFICATE</div>
+            <div class="certificate-line"></div>
+            <div class="certificate-line short"></div>
+            <div class="certificate-seal">✓</div>
+          </div>
+          <div class="floating-code">&lt;/&gt;</div>
+          <div class="floating-chart">↗</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section" id="topics">
+      <div class="section-title-row">
+        <div>
+          <p class="section-kicker">Explore</p>
+          <h2>Top learning topics</h2>
+          <p>Practical skills for professional growth and certification success.</p>
+        </div>
+      </div>
+      <div class="topic-grid">
+        <a class="topic-card" href="/publications/#python">
+          <div class="topic-icon python-icon">Py</div>
+          <h3>Python</h3>
+          <p>From programming fundamentals to advanced certification preparation.</p>
+          <span>Explore →</span>
+        </a>
+        <a class="topic-card" href="/publications/#oracle">
+          <div class="topic-icon oracle-icon">DB</div>
+          <h3>Oracle</h3>
+          <p>SQL, PL/SQL and database certification practice materials.</p>
+          <span>Explore →</span>
+        </a>
+        <a class="topic-card" href="/publications/#excel">
+          <div class="topic-icon excel-icon">X</div>
+          <h3>Excel</h3>
+          <p>Formulas, lookup functions, pivot tables and data analysis.</p>
+          <span>Explore →</span>
+        </a>
+        <a class="topic-card" href="/publications/#scrum">
+          <div class="topic-icon scrum-icon">↻</div>
+          <h3>Scrum</h3>
+          <p>Agile concepts, PSPO I preparation and practical exam support.</p>
+          <span>Explore →</span>
+        </a>
+        <a class="topic-card" href="/publications/#software-testing">
+          <div class="topic-icon testing-icon">✓</div>
+          <h3>Software Testing</h3>
+          <p>ISTQB-oriented preparation and software testing foundations.</p>
+          <span>Explore →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="benefits-intro">
+        <p class="section-kicker">Why IT Piazza?</p>
+        <h2>Learning designed for real progress</h2>
+        <p>Academic knowledge translated into clear, practical and exam-focused materials.</p>
+      </div>
+      <div class="benefit-grid">
+        <article class="benefit">
+          <div class="benefit-icon">◆</div>
+          <h3>Academic and practical expertise</h3>
+          <p>Materials shaped by university teaching and real technical experience.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit-icon">✓</div>
+          <h3>Certification focused</h3>
+          <p>Structured resources that help you practise confidently and efficiently.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit-icon">▰</div>
+          <h3>Learn at your own pace</h3>
+          <p>Use concise guides, books and practice tests wherever you study best.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit-icon">◎</div>
+          <h3>Clear explanations</h3>
+          <p>Complex IT topics presented in a logical and approachable way.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-section showcase-section">
+      <div class="showcase-column">
+        <div class="section-title-row compact">
+          <div>
+            <p class="section-kicker">Learn deeply</p>
+            <h2>Books and courses</h2>
+          </div>
+          <a href="/publications/">View all →</a>
+        </div>
+        <div class="mini-card-grid">
+          <a class="feature-tile" href="/publications/">
+            <div class="tile-cover tile-python">Python</div>
+            <div><h3>Python certification preparation</h3><p>Books, tests and practical examples.</p><span>View resources →</span></div>
+          </a>
+          <a class="feature-tile" href="/publications/">
+            <div class="tile-cover tile-oracle">Oracle</div>
+            <div><h3>Oracle SQL and PL/SQL</h3><p>Focused practice for database exams.</p><span>View resources →</span></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="showcase-column">
+        <div class="section-title-row compact">
+          <div>
+            <p class="section-kicker">Prepare confidently</p>
+            <h2>Certification preparation</h2>
+          </div>
+          <a href="/certifications/">View all →</a>
+        </div>
+        <div class="cert-grid">
+          <a href="/certifications/" class="cert-card"><strong>Python</strong><small>PCEP · PCAP · PCPP1</small></a>
+          <a href="/publications/" class="cert-card"><strong>Oracle</strong><small>SQL · PL/SQL</small></a>
+          <a href="/scrum-certificates/" class="cert-card"><strong>Scrum</strong><small>PSPO I resources</small></a>
+          <a href="/publications/" class="cert-card"><strong>ISTQB</strong><small>Software testing</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources-section" id="resources">
+      <div class="section-title-row">
+        <div>
+          <p class="section-kicker">Start for free</p>
+          <h2>Free learning resources</h2>
+          <p>Useful materials to support your preparation and revision.</p>
+        </div>
+      </div>
+      <div class="resource-shortcuts">
+        <a href="/scrum-certificates/"><span class="shortcut-icon">▤</span><div><strong>Cheat Sheets</strong><small>Fast reference guides</small></div><b>›</b></a>
+        <a href="/certifications/"><span class="shortcut-icon">?</span><div><strong>Practice Examples</strong><small>Free certification examples</small></div><b>›</b></a>
+        <a href="/certifications/"><span class="shortcut-icon">⌁</span><div><strong>Exam Preparation</strong><small>Focused study materials</small></div><b>›</b></a>
+        <a href="/certifications/"><span class="shortcut-icon">↓</span><div><strong>Downloads</strong><small>PDFs and reference files</small></div><b>›</b></a>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="IT Piazza experience">
+      <div><strong>Multiple</strong><span>Published books</span></div>
+      <div><strong>Python · Oracle</strong><span>Core certification areas</span></div>
+      <div><strong>Thousands</strong><span>Practice questions created</span></div>
+      <div><strong>15+ years</strong><span>Teaching experience</span></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-mark">
+        <img src="/assets/images/itpiazza-icon.png" alt="">
+      </div>
+      <div class="about-copy">
+        <p class="section-kicker">About IT Piazza</p>
+        <h2>Education built on knowledge and experience</h2>
+        <p>
+          IT Piazza was created to make high-quality IT education accessible through
+          practical books, certification preparation and clear learning resources.
+        </p>
+        <p>
+          The materials are developed by <strong>Dr Ana Uzelac</strong>, a university professor,
+          researcher and course creator with extensive experience in programming,
+          databases, data science and professional certification preparation.
+        </p>
+        <a class="text-link" href="/publications/">Explore the learning materials →</a>
+      </div>
+      <div class="about-points">
+        <div><span>✦</span><p><strong>University-level expertise</strong><br>Academic rigor combined with practical learning.</p></div>
+        <div><span>♡</span><p><strong>Focused on learner success</strong><br>Resources designed to support steady, confident progress.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="modern-footer">
+    <div class="modern-footer-inner">
+      <div class="footer-brand-block">
+        <a class="footer-brand" href="/">
+          <img src="/assets/images/itpiazza-logo-header.png" alt="IT Piazza">
+        </a>
+        <p>Learn. Practice. Get Certified.</p>
+      </div>
+      <div class="footer-links">
+        <div><strong>Learning</strong><a href="/publications/">Books & Courses</a><a href="/certifications/">Certifications</a></div>
+        <div><strong>Resources</strong><a href="/scrum-certificates/">Scrum Cheat Sheet</a><a href="/certifications/">Free Downloads</a></div>
+        <div><strong>IT Piazza</strong><a href="#about">About</a><a href="mailto:contact@itpiazza.net">Contact</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 IT Piazza. All rights reserved.</div>
+  </footer>
+</body>
+</html>

@@ -1,15 +1,17 @@
-# IT Piazza website with new logo
+# IT Piazza — Modern homepage
 
-This package includes the updated IT Piazza logo in the website header,
-footer and browser favicon.
+This package contains the redesigned responsive IT Piazza homepage while
+preserving the existing Publications, Certifications and Scrum pages.
 
-Upload all files and folders from this package to the root of the GitHub
-repository `anauz/itpiazza`, replacing existing files.
+## Upload
 
-Cloudflare Pages will redeploy automatically after the commit.
+1. Extract the ZIP.
+2. Upload all files and folders from inside the extracted package to the root
+   of the GitHub repository `anauz/itpiazza`.
+3. Replace existing files when prompted.
+4. Commit to `main`.
 
-Main logo files:
-- assets/images/itpiazza-logo.png
-- assets/images/itpiazza-logo-header.png
-- assets/images/itpiazza-icon.png
-- assets/images/favicon.ico
+Cloudflare Pages will deploy automatically.
+
+The homepage is implemented with semantic HTML and CSS. The hero illustration
+is built in CSS, so no large stock image is required.
