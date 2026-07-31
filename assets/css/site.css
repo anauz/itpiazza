@@ -691,3 +691,6 @@ body .hero,body>.nav{display:none!important}.content.publications-content{paddin
 @media(max-width:1000px){.catalogue-hero-inner{grid-template-columns:1fr 360px}.catalogue-section .grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:780px){.catalogue-hero-inner{grid-template-columns:1fr;padding-top:48px}.catalogue-hero-panel{max-width:450px;width:100%;margin:auto;min-height:320px}.catalogue-controls{top:68px}.catalogue-search{grid-template-columns:1fr;gap:8px}.catalogue-summary>div{padding:0 15px}.catalogue-cta{align-items:flex-start;flex-direction:column}.catalogue-section{scroll-margin-top:300px}}
 @media(max-width:560px){.catalogue-hero-inner,.catalogue-controls-inner,.catalogue-content,.catalogue-empty,.catalogue-cta{width:calc(100% - 26px)}.catalogue-hero-copy h1{font-size:2.75rem}.catalogue-summary{gap:18px}.catalogue-summary>div{width:calc(50% - 9px);padding:0;border:0}.catalogue-section .grid{grid-template-columns:1fr}.filter-wrap{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.filter-button{white-space:nowrap}.catalogue-cta{padding:28px 24px}}
+
+/* Preserve the full portrait cover for the Python PCEP book only. */
+.catalogue-card .card-image img.book-cover-image{object-fit:contain;background:#090b10;padding:0}
