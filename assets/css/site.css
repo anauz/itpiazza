@@ -694,3 +694,30 @@ body .hero,body>.nav{display:none!important}.content.publications-content{paddin
 
 /* Preserve the full portrait cover for the Python PCEP book only. */
 .catalogue-card .card-image img.book-cover-image{object-fit:contain;background:#090b10;padding:0}
+
+
+/* IT Piazza catalogue refinement — July 2026 */
+.catalogue-controls{position:sticky;top:72px;z-index:30;box-shadow:0 10px 30px rgba(23,33,61,.05)}
+.filter-button{white-space:nowrap;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.filter-button:hover{transform:translateY(-1px)}
+.catalogue-card{position:relative;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.catalogue-card:hover{transform:translateY(-5px);box-shadow:0 22px 50px rgba(23,33,61,.13);border-color:#cfd7ea}
+.catalogue-card .card-image{background:linear-gradient(135deg,#eef2fb,#f8f9fc)}
+.catalogue-card .card-body{gap:0}
+.card-meta-row{display:flex;align-items:center;gap:7px;flex-wrap:wrap;min-height:28px}
+.platform-badge,.new-badge{display:inline-flex;align-items:center;width:max-content;padding:4px 8px;border-radius:999px;font-size:.7rem;font-weight:850;letter-spacing:.04em;text-transform:uppercase}
+.platform-badge{background:#eef3ff;color:#3157a8;border:1px solid #d9e4ff}
+.new-badge{background:#fff4cc;color:#855f00;border:1px solid #f2d36d}
+.catalogue-card h3{font-size:1.2rem;letter-spacing:-.015em}
+.catalogue-card .authors{padding-top:2px}
+.catalogue-card .features{list-style:none;padding-left:0}
+.catalogue-card .features li{position:relative;padding-left:24px}
+.catalogue-card .features li::before{content:'✓';position:absolute;left:0;top:0;color:#2563eb;font-weight:900}
+.catalogue-card .button{display:inline-flex;justify-content:center;align-items:center;min-height:44px}
+.catalogue-card .actions .button:first-child{min-width:132px}
+.networking-icon{background:#e8f5ff!important;color:#096b9f!important}
+.topic-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.catalogue-search input:focus{outline:3px solid rgba(37,99,235,.16);border-color:#2563eb}
+.filter-button:focus-visible,.button:focus-visible,.btn:focus-visible,.site-nav a:focus-visible,.topic-card:focus-visible{outline:3px solid rgba(37,99,235,.32);outline-offset:3px}
+@media(max-width:900px){.catalogue-controls{top:64px}.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.topic-grid{grid-template-columns:1fr}.catalogue-controls{position:static}.catalogue-card:hover{transform:none}}
