@@ -721,3 +721,5 @@ body .hero,body>.nav{display:none!important}.content.publications-content{paddin
 .filter-button:focus-visible,.button:focus-visible,.btn:focus-visible,.site-nav a:focus-visible,.topic-card:focus-visible{outline:3px solid rgba(37,99,235,.32);outline-offset:3px}
 @media(max-width:900px){.catalogue-controls{top:64px}.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.topic-grid{grid-template-columns:1fr}.catalogue-controls{position:static}.catalogue-card:hover{transform:none}}
+
+.download-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:10px;}
