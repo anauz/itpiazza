@@ -1,3 +1,5 @@
+# IT Piazza v1.0.0
+
 # IT Piazza — Publications catalogue redesign
 
 This package redesigns the Publications page as a searchable, filterable catalogue while keeping the existing homepage, certification pages, content, images and external links.
